@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Prices</title>
+    
+</head>
+<body>
+
+    <h1>Market Prices</h1>
+    <label for="region">Select Region:</label>
+    <select id="region">
+        <option value="">--Select Region--</option>
+        <option value="North">North</option>
+        <option value="South">South</option>
+        <option value="East">East</option>
+        <option value="West">West</option>
+        <option value="Central">Central</option>
+    </select>
+
+    <label for="productType">Select Product Type:</label>
+    <select id="productType">
+        <option value="">--Select Product Type--</option>
+        <option value="grains">Grains</option>
+        <option value="vegetables">Vegetables</option>
+    </select>
+
+    <button onclick="showPrices()">Show Prices</button>
+
+    <div class="output">
+        <div class="price-list">
+            <h2>Current Market Prices</h2>
+            <ul id="priceList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
