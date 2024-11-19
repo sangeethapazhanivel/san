@@ -1,43 +1,37 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Market Prices</title>
-    
+    <title>Hotel Name</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <h1>Welcome to Hotel Name</h1>
+        <nav>
+            <ul>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#amenities">Amenities</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <h1>Market Prices</h1>
-    <label for="region">Select Region:</label>
-    <select id="region">
-        <option value="">--Select Region--</option>
-        <option value="North">North</option>
-        <option value="South">South</option>
-        <option value="East">East</option>
-        <option value="West">West</option>
-        <option value="Central">Central</option>
-    </select>
+    <section id="hero">
+        <h2>Your Comfort, Our Priority</h2>
+        <p>Book your stay with us today!</p>
+    </section>
 
-    <label for="productType">Select Product Type:</label>
-    <select id="productType">
-        <option value="">--Select Product Type--</option>
-        <option value="grains">Grains</option>
-        <option value="vegetables">Vegetables</option>
-    </select>
-
-    <button onclick="showPrices()">Show Prices</button>
-
-    <div class="output">
-        <div class="price-list">
-            <h2>Current Market Prices</h2>
-            <ul id="priceList"></ul>
+    <section id="rooms">
+        <h2>Our Rooms</h2>
+        <div class="room">
+            <h3>Deluxe Room</h3>
+            <p>Luxury accommodation with stunning views.</p>
         </div>
-    </div>
-
-    <script src="script.js"></script>
-
-</body>
-</html>
+        <div class="room">
+            <h3>Standard Room</h3>
+            <p>Comfortable and affordable for all travelers.</p>
+        </div>
+    <
